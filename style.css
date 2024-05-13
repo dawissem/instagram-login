@@ -3,15 +3,17 @@
     padding: 0px;
   }
   
-  body {
-    background-color: #eee;
+  body{
+    height: 100%;
+    background-color: #d6249f;
+     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
   }
   
   #wrapper {
     width: 500px;
-    height: 50%;
+    height: 100%;
     overflow: hidden;
-    border: 0px solid #000;
+    border: 0px solid #000000;
     margin: 50px auto;
     padding: 10px;
   }
@@ -80,7 +82,7 @@
     margin: 10px auto;
     border: 1px solid #e6e6e6;
     padding: 20px 50px;
-    background-color: #fff;
+    background-color: #ffffff;
   }
   
   .s-part {
